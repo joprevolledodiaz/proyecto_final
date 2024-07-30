@@ -1,0 +1,455 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Metal Mania', cursive; 
+}
+
+body {
+    background-color: #1a1a1a; 
+    color: #f5f5f5; 
+    font-family: 'Metal Mania', cursive; 
+}
+
+
+.header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/fondo.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 7%;
+}
+
+.navbar {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 5%;
+    background: transparent;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+body {
+    font-family: 'Metal Mania', cursive; 
+}
+
+.new-bands {
+    background-color: #1a1a1a; 
+    color: #f5f5f5; 
+}
+
+.new-bands .card {
+    background-color: #333; 
+    border: none; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+}
+
+.new-bands .card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.new-bands .card-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #f5f5f5;
+}
+
+.new-bands .card-text {
+    color: #dcdcdc; 
+}
+
+.new-bands .btn-dark {
+    background-color: #555;
+    border: none;
+    border-radius: 5px;
+    color: #f5f5f5; 
+    transition: background 0.3s;
+}
+
+.new-bands .btn-dark:hover {
+    background-color: #666;
+}
+
+
+.video {
+    background-color: #1a1a1a; 
+    color: #f5f5f5;
+}
+
+.video h2 {
+    color: #f5f5f5; 
+}
+
+.video h3 {
+    color: #f5f5f5; 
+}
+
+.video p {
+    color: #dcdcdc; 
+}
+
+.map {
+    border: 0;
+    border-radius: 10px;
+}
+
+
+@media (max-width: 768px) {
+    .video .row {
+        flex-direction: column-reverse;
+    }
+
+    .video .col-md-6 {
+        margin-bottom: 20px;
+    }
+}
+
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand .logo {
+    width: 360px;
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-nav .nav-item {
+    margin: 0 15px;
+    position: relative;
+}
+
+.navbar-nav .nav-link {
+    color: #f5f5f5; 
+    font-size: 17px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: #333; 
+    border-radius: 5px;
+    transition: background 0.3s, padding 0.3s, color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #f0f0f0; 
+    background-color: #444; 
+    padding: 10px 20px;
+}
+
+.navbar-nav .nav-link:active {
+    background-color: #555; 
+}
+
+.text-box {
+    margin-top: 80px;
+    font-size: 22px;
+}
+
+.text-box h1 {
+    font-size: 85px;
+    font-weight: 600;
+    line-height: 100px;
+    margin-bottom: 10px;
+    color: #f0f0f0; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); 
+}
+
+.text-box p {
+    font-size: 22px;
+    color: #dcdcdc; 
+}
+
+.text-box .btn-primary {
+    font-size: 18px;
+    margin-top: 30px;
+    background: #333; 
+    border: none;
+    padding: 14px 40px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #f0f0f0; 
+    transition: background 0.3s;
+}
+
+.text-box .btn-primary:hover {
+    background: #444;
+}
+
+
+.download {
+    position: fixed;
+    right: 7%;
+    bottom: 7%;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #f0f0f0;
+    padding: 12px 25px;
+    border-radius: 40px;
+    background: linear-gradient(135deg, #000000, #666666); 
+    border: 2px solid #888; 
+    transition: background 0.3s, border 0.3s;
+    font-family: 'Poppins', sans-serif;
+    z-index: 1000; 
+}
+
+.download-img {
+    width: 20px;
+    margin-left: 10px;
+}
+
+.download:hover {
+    background: linear-gradient(135deg, #333333, #777777); 
+    border: 2px solid #aaa;
+}
+
+
+@media (max-width: 768px) {
+    .header {
+        padding: 0 5%;
+        justify-content: flex-start;
+    }
+
+    .navbar {
+        padding: 15px 3%;
+        position: relative;
+        justify-content: space-between;
+    }
+
+    .navbar-brand .logo {
+        width: 120px;
+    }
+
+    .text-box {
+        margin-top: 10%;
+        font-size: 18px;
+    }
+
+    .text-box h1 {
+        font-size: 60px;
+        line-height: 70px;
+    }
+
+    .text-box p {
+        font-size: 18px;
+    }
+
+    .text-box .btn-primary {
+        font-size: 16px;
+        padding: 12px 30px;
+    }
+
+    .download {
+        padding: 10px 15px;
+        bottom: 5%;
+        right: 5%;
+    }
+
+    .download-img {
+        width: 15px;
+        margin-left: 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header {
+        padding: 0 3%;
+        justify-content: flex-start;
+    }
+
+    .navbar {
+        padding: 10px 3%;
+    }
+
+    .navbar-brand .logo {
+        width: 100px;
+    }
+
+    .text-box {
+        margin-top: 5%;
+        font-size: 16px;
+    }
+
+    .text-box h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .text-box p {
+        font-size: 16px;
+    }
+
+    .text-box .btn-primary {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+
+    .download {
+        padding: 8px 10px;
+        bottom: 5%;
+        right: 5%;
+    }
+
+    .download-img {
+        width: 12px;
+        margin-left: 6px;
+    }
+}
+
+
+
+/* Página de Conciertos */
+
+.header {
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(img/fondo.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 60px 0;
+}
+
+.header .text-box h1 {
+    font-size: 65px;
+    font-weight: 600;
+    color: #f0f0f0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); 
+}
+
+.header .text-box p {
+    font-size: 22px;
+    color: #dcdcdc; 
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    background-color: #333;
+    color: #f5f5f5;
+}
+
+.card-title {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.card-text {
+    font-size: 16px;
+}
+
+.btn-primary {
+    background: #333; 
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #f0f0f0; 
+    transition: background 0.3s;
+}
+
+.btn-primary:hover {
+    background: #444; 
+}
+
+
+
+/* Estilos para la página de contacto */
+
+
+.contact-header {
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(img/fondo2.webp);
+    background-position: center;
+    background-size: cover;
+    color: #f5f5f5;
+    text-align: center;
+    padding: 60px 0;
+}
+
+.contact-header h1 {
+    font-size: 65px;
+    font-weight: 600;
+    color: #f0f0f0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.contact-header p {
+    font-size: 22px;
+    color: #dcdcdc;
+}
+
+/* Formulario de contacto */
+.contact-form {
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(img/fondo2.webp);
+}
+
+.contact-form label {
+    color: #f5f5f5;
+}
+
+.contact-form .form-control {
+    background-color: #550000;
+    color: #f5f5f5;
+    border: 1px solid #eb0000;
+    border-radius: 5px;
+}
+
+.contact-form .form-control::placeholder {
+    color: #ccc;
+}
+
+.contact-form .btn-primary {
+    background-color: #0e008a;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #f0f0f0;
+    transition: background 0.3s;
+}
+
+.contact-form .btn-primary:hover {
+    background-color: #33ff00;
+}
+
+/* Mapa */
+.map {
+    height: 430px;
+    border: 0;
+    border-radius: 40px;
+}
+
+.map-container {
+    margin-top: 10px;
+}
+
